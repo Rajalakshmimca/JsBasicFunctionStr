@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User details Using Arrow Function</title>
+    <script>
+      let userId, firstName, lastName, passWord, email, gender, age, account;
+
+      let user = (
+        userId,
+        firstName,
+        lastName,
+        passWord,
+        email,
+        gender,
+        age,
+        account
+      ) =>
+        console.log(
+          userId +
+            '\n' +
+            firstName +
+            '\n' +
+            lastName +
+            '\n' +
+            passWord +
+            '\n' +
+            email +
+            '\n' +
+            gender +
+            '\n' +
+            age +
+            '\n' +
+            account
+        );
+
+      user(
+        102531,
+        'Rose ',
+        'Mary',
+        'LossAngeles123',
+        'rosemary@gmail.in',
+        'female',
+        '25',
+        '12008745100'
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
